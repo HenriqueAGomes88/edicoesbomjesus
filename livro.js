@@ -9,7 +9,7 @@ const livros = [
     detalhes: "Ano: 2025<br>Autor: Joaquim da Silva Gomes<br>Páginas: 203"
   },
   {
-    titulo: "Os Eletricos em Braga [1914-1963]",
+    titulo: "Os Elétricos em Braga [1914-1963]",
     preco: 18,
     imagem: "images/EletricosBraga.jpg",
     linkPagamento: "https://pagamento.mbway.exemplo/EletricosBraga",
