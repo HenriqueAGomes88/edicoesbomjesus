@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre o Autor | Edições Bom Jesus</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-content">
+      <h1>Edições Bom Jesus</h1>
+      <nav class="topnav">
+        <ul>
+          <li><a href="autor.html" class="active">Sobre o Autor</a></li>
+          <li><a href="index.html">Comprar</a></li>
+          <li><a href="contactos.html">Contactos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="autor-section fade-in-up">
+      <img src="images/autor.jpg" alt="Foto do Autor" class="autor-foto">
+      <h2>Sobre o Autor</h2>
+      <hr class="autor-separador">
+      <p>
+        Nasceu a 22 de março de 1970, na freguesia de Couto de Cambeses, concelho de Barcelos.
+      </p>
+      <p>
+        Desde o 2.º ciclo, prosseguiu os seus estudos em Braga, onde se licenciou em Ensino de História e Ciências
+        Sociais pela Universidade do Minho. Nesta mesma instituição concluiu a Especialização em Administração
+        Educacional.
+      </p>
+      <p>
+        Apaixonado pela História local, tem organizado e proferido inúmeras palestras sobre o tema, contribuindo para o
+        conhecimento e valorização da identidade regional. Desde 1989, é cronista no jornal Correio do Minho, onde
+        partilha reflexões e análises sobre a História e a sociedade.
+      </p>
+      <p>
+        Em reconhecimento pelo seu contributo cultural, recebeu do Município de Braga a Medalha de Mérito Cultural –
+        Grau Prata, em dezembro de 2022.
+      </p>
+      <a href="https://correiodominho.pt/cronicas/autor/joaquim-da-silva-gomes/62" target="_blank" class="autor-link">
+        Ver crónicas do autor no Correio do Minho
+      </a>
+    </section>
+  </main>
+  <button id="topBtn" title="Voltar ao topo">↑</button>
+  <script>
+    window.onscroll = function () {
+      document.getElementById("topBtn").style.display = (window.scrollY > 300) ? "block" : "none";
+    };
+    document.getElementById("topBtn").onclick = function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+  </script>
+  <footer>
+    <p>© 2025 Edições Bom Jesus</p>
+  </footer>
+</body>
+
+</html>
